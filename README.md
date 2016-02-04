@@ -16,6 +16,4 @@ Unfortunately /proc/meminfo, /proc/vmstat and friends are not containerized. Mea
 not cgroup-aware. They will always display memory numbers from the host system (physical or 
 virtual machine) as a whole, which is the reason why this docker image exists.
 
-## Links
-
 [1]: http://aws-cloudwatch.s3.amazonaws.com/downloads/CloudWatchMonitoringScripts-1.2.1.zip
